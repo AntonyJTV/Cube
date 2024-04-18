@@ -5,11 +5,12 @@
 }
 
 body {
-    margin-top: 350px;
+    display: grid;
     background-color: #9798a7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    place-items: center;
+    place-content: center;
+    height: 100vh;
+    overflow-y: clip;
 }
 
 .cube-top {
